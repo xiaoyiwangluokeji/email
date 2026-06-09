@@ -12,7 +12,7 @@ keep_vars = true
 [[d1_databases]]
 binding = "DB"
 database_name = "email"  # 这是 D1 数据库名称的占位符
-database_id = "${D1_DATABASE_ID}"      # 这是 D1 数据库 ID 的占位符
+database_id = "a17849b1-3fbd-4830-a047-00739cd8fb2b"      # 这是 D1 数据库 ID 的占位符
 
 # 设置域名
 # 注意：这里的 VITE_EMAIL_DOMAIN 将由 GitHub Action 动态替换
